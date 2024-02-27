@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 21 avr. 2022, 02:26:45
+    Author     : ASUS
+*/
+.login-bg{
+
+    -fx-background-color:linear-gradient(to bottom right,#2f466b, #008000);
+
+    -fx-background-radius: 10;
+}
+
+
+.rounded-anchorpane {
+    -fx-background-radius: 10; /* Ajustez la valeur du rayon selon vos préférences */
+
+}
+
+.exit{
+    -fx-background-color:#c22c40;
+    -fx-background-radius:5px;
+    -fx-cursor:hand;
+}
+.textfield-design{
+    -fx-background-color:transparent;
+    -fx-background-radius:10px;
+    -fx-border-color:linear-gradient(to bottom right,#2f466b, #008000);
+    -fx-border-radius:10px;
+    -fx-text-inner-color:#000;
+}
+.button-design{
+     -fx-background-color:linear-gradient(to bottom right,#2f466b, #008000);
+     -fx-background-radius:20px;
+      -fx-cursor:hand;
+
+}
+.button-design:hover{
+     -fx-background-color:linear-gradient(to bottom left, #FFA500,  #FF0000);
+     -fx-background-radius:20px;
+      -fx-cursor:hand;
+
+}
+.hypertext-design{
+    -fx-text-fill:#5185c5;
+    -fx-underline:false;
+    -fx-border-color:transparent;
+}
+.hypertext-design:hover{
+
+    -fx-underline:true;
+
+}
+.vbox-proportion {
+    -fx-background-color: #f0f0f0; /* Couleur de fond */
+    -fx-border-color: #cccccc; /* Couleur de la bordure */
+    -fx-border-width: 1px; /* Largeur de la bordure */
+    -fx-padding: 10px; /* Espace intérieur */
+    -fx-margin: 0 0 10 0; /* Marge en bas pour l'espace entre chaque VBox */
+}
+
+
+#vboxcons {
+    -fx-background-color: white; /* couleur de fond */
+    -fx-border-color: black; /* couleur de bordure */
+    -fx-border-width: 1px; /* largeur de bordure */
+
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+
+#hboxcons {
+    -fx-background-color: white; /* couleur de fond */
+    -fx-border-color: black; /* couleur de bordure */
+    -fx-border-width: 1px; /* largeur de bordure */
+
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+
+
+
+#labelcons {
+    -fx-background-color: #FFD700; /* Fond jaune */
+
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+
+#labelform {
+    -fx-background-color: #FFD700; /* Fond jaune */
+
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+#labelform1 {
+    -fx-background-color: #FFD700; /* Fond jaune */
+
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+#vboxContainer {
+    -fx-background-color: white; /* couleur de fond */
+    -fx-border-color: black; /* couleur de bordure */
+    -fx-border-width: 1px; /* largeur de bordure */
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+
+/* Définition des keyframes pour l'animation */
+@keyframes rotateAnimation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Appliquer l'animation à l'ImageView avec l'ID "idImage" */
+#imagenut{
+    /* Autres styles CSS pour l'image */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 10, 0, 0, 0);
+    -fx-fit-height: 100;
+    -fx-fit-width: 100;
+
+    /* Ajouter l'animation de rotation */
+    -fx-animation: rotateAnimation 2s infinite linear;
+}
+#labelbacknut {
+    -fx-background-color:linear-gradient(to bottom left,#2f466b, #008000);
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+
+#labelr {
+    -fx-background-color:linear-gradient(to bottom left, #FFA500,  #FF0000);
+    -fx-background-radius: 10;
+    -fx-padding: 5;
+}
+
+
+
+#labelbackchef {
+    -fx-background-color:linear-gradient(to bottom left,#2f466b, #008000);
+    -fx-background-radius: 10; /* Rayon des coins pour créer une forme ronde */
+    -fx-padding: 5; /* Ajoute un peu de marge intérieure pour plus de visibilité */
+}
+
+/* Styles.css */
+
+#tableRecommandation {
+    -fx-background-color:  #FFF8DC; /* Couleur de fond de la table */
+}
+
+#tableRecommandation .table-row-cell {
+    -fx-background-color: #ffffff; /* Couleur de fond des lignes */
+    -fx-text-fill: #333333; /* Couleur du texte dans les cellules */
+}
+
+#tableRecommandation .table-row-cell:selected {
+    -fx-background-color: #3498db; /* Couleur de fond des lignes sélectionnées */
+    -fx-text-fill: #ffffff; /* Couleur du texte dans les cellules sélectionnées */
+}
+
+#tableRecommandation .table-column {
+    -fx-alignment: CENTER; /* Alignement du contenu des colonnes au centre */
+}
+
+#tableRecommandation .table-header {
+    -fx-background-color: #3498db; /* Couleur de fond de l'en-tête de la table */
+    -fx-text-fill: #ffffff; /* Couleur du texte dans l'en-tête de la table */
+}
+
+#tableRecommandation .table-column .label {
+    -fx-font-weight: bold; /* Police en gras pour le texte des en-têtes de colonnes */
+}
+
+
+#anchorchef {
+    -fx-background-radius: 10; /* Ajustez la valeur du rayon selon vos préférences */
+    -fx-background-color: linear-gradient(to bottom right, #2f466b, #008000);
+}
